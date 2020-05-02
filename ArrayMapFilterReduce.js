@@ -34,6 +34,8 @@ console.log(var2)
 
 
 
+
+
 //------------little complex-------------------//
 
 var laptops = [
@@ -98,7 +100,3 @@ console.log(findDell());
 console.log(availableModels());
 
 console.log(affordables());
-
-
-
-
