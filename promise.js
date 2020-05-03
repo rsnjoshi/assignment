@@ -85,3 +85,16 @@ let urls = [
         console.log(response)
     })
   })
+
+  Promise.race(requests)
+    .then((response)=>{
+        console.log(response)
+    })
+    .finally(()=>{
+        console.log("race settled")
+    })
+
+    
+
+
+
