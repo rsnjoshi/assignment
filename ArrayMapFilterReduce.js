@@ -37,6 +37,7 @@ console.log(var2)
 
 
 //------------little complex-------------------//
+//-------searching laptops from a store----------/
 
 var laptops = [
     {

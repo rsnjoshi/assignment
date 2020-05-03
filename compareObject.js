@@ -1,4 +1,4 @@
-// let us take an example below
+// ------------------------------let us take an example below
 
 // for objects
 var obj1 = {
@@ -32,8 +32,8 @@ console.log(JSON.stringify(arr1) === JSON.stringify(arr2));
 
 
 
-// a descriptive visualization
-// trying to find duplicate object an array
+//----------------------------- a descriptive visualization
+//------------------------- program to find duplicate object in an array
 
 var objArray = new Array();
 

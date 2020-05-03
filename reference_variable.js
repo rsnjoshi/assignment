@@ -1,3 +1,5 @@
+//-------mutation is not available for primitive variables---------//
+
 var v1 = 30
 var v2 = v1
 v1++;

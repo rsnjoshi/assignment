@@ -32,8 +32,8 @@ function adder(){
     var temp1 = num1;
     var temp2 = num2;
     function calculate(){
-        var result = num1 + num2;
-        console.log(temp1 + temp2);
+        var result = temp1+temp2;
+        console.log(result);
     }
 
     calculate();

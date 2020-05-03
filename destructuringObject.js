@@ -1,3 +1,5 @@
+//----------simple example------------------//
+
 var employee = new Object();
 
 employee = {
@@ -13,7 +15,7 @@ console.log(address);
 
 
 ////---------------------little advanced-------------------------------//
-
+//------ displaying the details of items from the arrray-----------------------//
 var carArray = new Array();
 carArray =  [
     {

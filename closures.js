@@ -13,10 +13,10 @@ function calculate() {
 }
 
 calculate();
-
+S
 
 //--------------------------------little advanced-----------------------/
-
+//------person's weeding party algorithm---------------------/
 
 var task1 = "Get Invitation ";
 
