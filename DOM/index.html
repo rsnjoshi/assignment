@@ -1,0 +1,50 @@
+<!-- simple example -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Roshan joshi
+    </title>
+</head>
+
+<body id="id1">
+    <h1 id="id2">Hello are you ready!</h1>
+    <button type="button" onclick="disco()">
+        party!</button>
+    <button type="button" id="id3" onclick="stopDisco()">
+        stop!</button>
+    <script>
+        var stopper = document.getElementById('id3');
+        stopper.style.visibility = 'hidden';
+        var elem = document.getElementById('id1');
+        var sentence = document.getElementById('id2');
+        var colorArray = ['red', 'blue', 'green', 'black', 'yellow', 'white'];
+        var counter = 0;
+        var timer = () => {
+            return setInterval(() => {
+                elem.style.background = colorArray[counter];
+                sentence.style.color = colorArray[5 - counter];
+                counter++;
+                if (counter == colorArray.length) {
+                    counter = 0;
+                }
+            }, 80);
+        }
+        var storeTimer;
+        function disco() {
+            stopper.style.visibility = 'visible';
+            counter = 0;
+            storeTimer = timer();
+        }
+
+        function stopDisco() {
+            stopper.style.visibility = 'hidden';
+            clearInterval(storeTimer);
+        }
+    </script>
+</body>
+
+
+</html>
