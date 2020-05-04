@@ -35,12 +35,14 @@
         var storeTimer;
         function disco() {
             stopper.style.visibility = 'visible';
+            elem.style.visibility = 'hidden';
             counter = 0;
             storeTimer = timer();
         }
 
         function stopDisco() {
             stopper.style.visibility = 'hidden';
+            elem.style.visibility = 'visible';
             clearInterval(storeTimer);
         }
     </script>
